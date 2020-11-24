@@ -1,2 +1,2 @@
-# CE889_Assignment
+# Neural Network
  My neural network from scratch
