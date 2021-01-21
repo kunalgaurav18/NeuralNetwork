@@ -23,5 +23,5 @@ class DataPreprocessing():
         transformed_df = scaler.transform(self.df)
         x = transformed_df[:, :2]
         y = transformed_df[:, 2:]
-        self.x_train, self.x_test, self.y_train, self.y_test = train_test_split(x, y, test_size=0.2, random_state=30)
+        self.x_train, self.x_test, self.y_train, self.y_test = train_test_split(x, y, test_size=0.2, random_state=42)
         return self.x_train, self.x_test, self.y_train, self.y_test
